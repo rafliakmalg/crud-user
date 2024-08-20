@@ -45,9 +45,9 @@
             $('#users-table').DataTable({
                 "responsive": true,
                 "autoWidth": false,
-                "order": [[1, 'asc']],
+                "order": [[0, 'asc']],
                 "columnDefs": [
-                    { "orderable": true, "targets": [1, 2] },
+                    { "orderable": true, "targets": [0, 1, 2] },
                     { "orderable": false, "targets": [0, 3] }
                 ]
             });
